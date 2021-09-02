@@ -15,6 +15,7 @@ namespace ProyectoPrueba.Controllers
     {
         private ClientesEntities1 db = new ClientesEntities1();
 
+
         // GET: Productos
         public async Task<ActionResult> Index()
         {
